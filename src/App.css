@@ -1,0 +1,45 @@
+:root {
+  --color1: #E9E3E6;
+  --color2: #C3BABA;
+  --color3: #B2B2B2;
+  --color4: #9A8F97;
+  --color5: #736F72;
+}
+
+html {
+  width: 100%;
+  background-color: var(--color5);
+  color: var(--color1);
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  background-color: var(--color4);
+}
+
+hr {
+  color: var(--color2);
+  size: 8;
+  width: 100%;
+  margin: 0;
+}
+
+#contentContainer {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  /* justify-content: right; */
+  margin: auto;
+}
+
+#contentContainer h3 {
+  font-size: calc(5px + 1vmin);
+}

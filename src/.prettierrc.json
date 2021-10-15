@@ -1,0 +1,7 @@
+{
+    "proseWrap": "never",
+    "printWidth": 120,
+    "tabWidth": 4,
+    "trailingComma": "none",
+    "arrowParens": "avoid"
+}
